@@ -5,6 +5,7 @@
 @_exported import UIKit
 @_exported import EasyString
 @_exported import SFSafeSymbols
+@_exported import Defaults
 
 public extension UIImage {
     func toData() -> Data? {
