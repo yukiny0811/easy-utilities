@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "easy-string",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:yukiny0811/easy-string.git",
+      "state" : {
+        "revision" : "a71c5f182e13825b8dd410ef266b853792091d09",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "sfsafesymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SFSafeSymbols/SFSafeSymbols",
+      "state" : {
+        "revision" : "7cca2d60925876b5953a2cf7341cd80fbeac983c",
+        "version" : "4.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}
