@@ -18,6 +18,7 @@ let package = Package(
         .package(url: "git@github.com:yukiny0811/easy-string.git", from: "1.0.0"),
         .package(url: "https://github.com/SFSafeSymbols/SFSafeSymbols", from: "4.1.1"),
         .package(url: "https://github.com/sindresorhus/Defaults", from: "7.3.1"),
+        .package(url: "https://github.com/omaralbeik/Drops", from: "1.7.0"),
     ],
     targets: [
         .target(
@@ -25,7 +26,8 @@ let package = Package(
             dependencies: [
                 .product(name: "EasyString", package: "easy-string"),
                 "SFSafeSymbols",
-                "Defaults"
+                "Defaults",
+                "Drops",
             ]
         ),
     ]

@@ -10,3 +10,4 @@
 @_exported import EasyString
 @_exported import SFSafeSymbols
 @_exported import Defaults
+@_exported import Drops
