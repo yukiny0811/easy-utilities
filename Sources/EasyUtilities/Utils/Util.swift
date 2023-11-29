@@ -15,7 +15,7 @@ public enum Util {
     }
     
     public static func dateDifferenceDay(pastDate: Date, futureDate: Date) -> Int {
-        let diff = futureDate - pastDate
-        return diff.day ?? 0
+        let diff = futureDate.timeIntervalSinceReferenceDate - pastDate.timeIntervalSinceReferenceDate
+        return Date.init(timeIntervalSinceReferenceDate: diff).day
     }
 }
