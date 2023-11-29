@@ -19,6 +19,7 @@ let package = Package(
         .package(url: "https://github.com/SFSafeSymbols/SFSafeSymbols", from: "4.1.1"),
         .package(url: "https://github.com/sindresorhus/Defaults", from: "7.3.1"),
         .package(url: "https://github.com/omaralbeik/Drops", from: "1.7.0"),
+        .package(url: "git@github.com:malcommac/SwiftDate.git", from: "7.0.0"),
     ],
     targets: [
         .target(
@@ -28,6 +29,7 @@ let package = Package(
                 "SFSafeSymbols",
                 "Defaults",
                 "Drops",
+                "SwiftDate",
             ]
         ),
     ]

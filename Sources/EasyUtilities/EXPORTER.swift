@@ -11,3 +11,4 @@
 @_exported import SFSafeSymbols
 @_exported import Defaults
 @_exported import Drops
+@_exported import SwiftDate
