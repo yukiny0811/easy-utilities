@@ -7,7 +7,6 @@
 
 @_exported import Foundation
 @_exported import UIKit
-@_exported import EasyString
 @_exported import SFSafeSymbols
 @_exported import Defaults
 @_exported import Drops
